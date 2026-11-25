@@ -11,6 +11,14 @@
         background-color: #3b1f4f;
       }
 
+      .bg-flaky-gold {
+        background-color: #d4a017;
+      }
+
+      .text-flaky-gold {
+        color: #d4a017 !important;
+      }
+
       .btn-blackcurrant {
         --bs-btn-color: #fff;
         --bs-btn-bg: #3b1f4f;
@@ -55,16 +63,30 @@
     </nav>
 
     <main>
-      <header class="bg-blackcurrant text-white py-5">
-        <div class="container py-lg-4">
-          <p class="text-uppercase fw-semibold mb-2">A little about me</p>
-          <h1 class="display-4 fw-bold">Curious about management, systems, and technology.</h1>
-          <p class="lead col-lg-8 mt-3 mb-0">Hi! I'm Channah, a System Analyst student who enjoys the problem solving journey.</p>
+      <section class="bg-flaky-gold py-4 py-lg-5">
+        <div class="container">
+          <div class="row align-items-stretch g-4 mx-0">
+            <div class="col-lg-8">
+              <div class="bg-blackcurrant text-white rounded-5 shadow-lg p-4 p-lg-5 h-100">
+                <p class="mb-3"><span class="badge rounded-pill bg-flaky-gold text-dark px-3 py-2">A little about me</span></p>
+                <h1 class="display-4 fw-bold">Curious about management, systems, and technology.</h1>
+                <p class="lead mt-3 mb-0">Hi! I'm Channah, a System Analyst student who enjoys the problem solving journey.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-blackcurrant text-white rounded-5 shadow-lg p-4 p-lg-5 h-100 d-flex align-items-center">
+                <div>
+                  <p class="display-1 fw-bold text-flaky-gold mb-0">02</p>
+                  <p class="h4 mb-0">About Me</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
+      </section>
 
       <section class="container py-5">
-        <div class="row g-5">
+        <div class="row g-5 mx-0">
           <div class="col-lg-7">
             <h2 class="h2 fw-bold">My approach</h2>
             <p class="text-secondary">I start by listening and understanding the problem before jumping to a solution. From there, I organize requirements, look for patterns, and communicate a plan that people can use.</p>
